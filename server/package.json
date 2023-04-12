@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "myApp.js",
+  "scripts": {
+    "start": "node myApp.js",
+    "dev": "nodemon myApp.js"
+  },
+  "keywords": [],
+  "author": "jdtheefirst",
+  "license": "ISC",
+  "dependencies": {
+    "@novu/node": "^0.13.0",
+    "@vonage/server-sdk": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
